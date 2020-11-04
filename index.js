@@ -47,7 +47,9 @@ Use the copy function below to do the following:
 
 function copy(arg){
     /*your code here*/
-    return Array.from(arg)
+    let argCopy = [...arg];
+    return argCopy;
+    // return Array.from(arg)
 }    
 
 
